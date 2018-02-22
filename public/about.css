@@ -1,0 +1,21 @@
+
+.jumbotron
+	{
+		margin-top:100px; 
+		font-family: 'Montserrat', sans-serif;
+		width: 1000;
+		height: 400;
+	}
+	.jumbotron h1
+	{
+		font-size: 40px;
+		color: rgb(253, 106, 33)
+	}
+.jumbotron h1 p
+{
+	font-size: 25px;
+}
+.gallery h1
+{
+	text-align: center;
+}
