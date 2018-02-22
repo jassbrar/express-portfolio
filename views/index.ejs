@@ -1,14 +1,13 @@
 <% include shared/header.ejs %>
-    <!--<h1><%= title %></h1>-->
-    <!--<p>Welcome to <%= message %></p>-->
-<link rel="stylesheet" href="home.css">
+
+<link rel="stylesheet" href="stylesheets/home.css">
 <div class="container">
     <!-- nav ending -->
     <div id="content">
-        <h1><span>Jaspreet Singh Brar </span></h1>
-        <h3><span>Learner, Web designer, Day Dreamer</span></h3>
+        <h1><span><%=title%> </span></h1>
+        <h3><span><%= message %></span></h3>
         <hr>
-        <button class="btn btn-lg "><a class="nav-link" href="/about">Find out more</a></button>
+        <button class="btn btn-lg "><a class="nav-link" href="/about"><%=button%></a></button>
     </div>
 
 

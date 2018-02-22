@@ -1,22 +1,22 @@
 <% include shared/header.ejs %>
 <!--<h1><%= title %></h1>-->
 <!--<p>Welcome to <%= message %></p>-->
-<link rel="stylesheet" href="work.css">
+<link rel="stylesheet" href="stylesheets/work.css">
 <div class="container">
     <!-- nav ending -->
     <div class="title">
         <div class="work">
             <hr>
             <h1 style="	color: rgb(0, 217, 220);text-align: center;
-	font-family: 'Lobster Two', cursive;">Check out my work</h1>
+	font-family: 'Lobster Two', cursive;"><%=title%></h1>
             <hr>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card" style="width: 22rem;">
-                        <img class="card-img-top" src="be36361b6e9198fa9ea466f7def14648--portfolio.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/be36361b6e9198fa9ea466f7def14648--portfolio.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Responsive Bootstrap Gallery</h5>
-                            <p class="card-text"> Bootstrap Gallery which uses twitter bootstrap and icons from font awesome</p>
+                            <p class="card-text"> <%=message%></p>
                             <a href="https://www.amazon.com/automoblox/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Aautomoblox" class="btn btn-primary">Vist Now</a>
                         </div>
                         <!-- .cardbody -->
@@ -26,10 +26,10 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card" style="width: 22rem;">
-                        <img class="card-img-top" src="ea567836b7df3a00c967df87f5d87252--portfolio-wordpress-portfolio-examples.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/ea567836b7df3a00c967df87f5d87252--portfolio-wordpress-portfolio-examples.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Full width Cover Page</h5>
-                            <p class="card-text"> A long background cover photo that covers entire body and is responsive</p>
+                            <p class="card-text"> <%=messages%></p>
                             <a href="https://www.amazon.com/automoblox/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Aautomoblox" class="btn btn-primary">Vist Now</a>
                         </div>
                         <!-- .cardbody -->
@@ -39,11 +39,11 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card" style="width: 22rem;">
-                        <img class="card-img-top" src="b1741e4a9117050deaa5cf0a24c06202.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/b1741e4a9117050deaa5cf0a24c06202.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">CSS gallery Black and white</h5>
-                            <p class="card-text"> A gallery created just by css and no use of color </p>
-                            <a href="https://www.amazon.com/automoblox/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Aautomoblox" class="btn btn-primary">Vist Now</a>
+                            <p class="card-text"><%=messagess%>  </p>
+                            <a href="/projects" class="btn btn-primary">Vist Now</a>
                         </div>
                         <!-- .cardbody -->
 
@@ -54,5 +54,6 @@
 
         </div>
     </div>
+</div>
 
 <% include shared/footer.ejs %>
