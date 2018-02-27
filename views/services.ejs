@@ -1,3 +1,7 @@
+<!--Jaspreet Singh Brar's
+ student number 200375562
+ Express portfolio created with help of exprss and node.js-->
+
 <% include shared/header.ejs %>
 <!--<h1><%= title %></h1>-->
 <!--<p>Welcome to <%= message %></p>-->
@@ -5,88 +9,64 @@
 // accordian used from get bootstrap
 
 <link rel="stylesheet" href="stylesheets/skills.css">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+
 <div class="container">
     <div class="skills">
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h3 class="two">HTML5(Hyper text mark Language)</h3>
-                        </button>
-                    </h5>
-                </div>
-
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <p class="one"><%=message%></p>
+        <!--start-study-section-->
+        <!-- <div class="study-section"> -->
+        <div class="container">
+            <center>
+                <div class="col-md-6 study-grid">
+                    <h3>skills..<span>!</span></h3>
+                    <div class="study2">
+                        <h4>html</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="sr-only">80% Complete (success)</span>
+                            </div>
+                        </div>
+                        <h4>css</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                        <h4>js</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                <span class="sr-only">70% Complete (warning)</span>
+                            </div>
+                        </div>
+                        <h4>php<h4>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                        <span class="sr-only">65% Complete (danger)</span>
+                                    </div>
+                                </div>
                     </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h3 class="two"> CSS3(Cascading style sheets)</h3>
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                        <p class="one"><%=messagetwo%></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h3 class="two"> Bootstrap 4</h3>
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                        <p class="one"><%=messagethree%></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header" id="headingfour">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                            <h3 class="two">Javascript</h3>
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
-                    <div class="card-body">
-                        <p class="one"><%=messagefour%></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header" id="headingfive">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                            <h3 class="two">  Wireframing</h3>
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordion">
-                    <div class="card-body">
-                        <p class="one"><%=messagefive%></p>
-                    </div>
-                </div>
-            </div>
+                    <h4>Bootstrap<h4>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <span class="sr-only">85% Complete (danger)</span>
+                                </div>
+                            </div>
+                            <h4>jquery</h4>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span class="sr-only">70% Complete (warning)</span>
+                                </div>
+                            </div>
 
 
 
-
+            </center>
         </div>
+        <div class="clearfix"></div>
     </div>
 </div>
-
+</div>
+</div>
+</div>
 <% include shared/footer.ejs %>
